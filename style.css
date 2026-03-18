@@ -29,3 +29,25 @@ body {
     float: right;
     line-height: 64px;
 }
+
+.nav-links {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-cta {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
