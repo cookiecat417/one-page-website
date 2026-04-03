@@ -13,8 +13,6 @@ body {
     height: 64px;
 }
 
-
-/* -- NAV-BAR -- */
 .nav-logo {
     float: left;
     color: white;
@@ -49,16 +47,20 @@ body {
 }
 
 .nav-cta {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(65, 161, 53);
     text-decoration: none;
-    color: white;
+    font-size: 14px;
     font-weight: bold;
+    border-radius: 4px;
+    vertical-align: middle;
 }
 
 
 /* -- HERO --- */
-.hero {
-    position: middle;
-}
 
 .hero h1 {
     font-size: 35px;
@@ -77,28 +79,33 @@ body {
     border: none;
     padding: 10px 25px;
     font-size: 18px;
+    font-weight: bold;
     border-radius: 4px;
+    
     cursor: pointer;
     
-
 }
 
 .turbine {
     border-color: silver;
-    border-radius:;
+    
 }
 
 .hoppy {
     background-color: #3ea63e;
     border-radius: none;
-    border-radius: 8px;
+    border-radius: 0px;
     float: right;
 }
 
 /* -- SERVICES -- */
 .services {
-    display: inline-block;
+color: blue;
     
+}
+
+.service-items {
+    color: green;
 }
 
 .services h2 {
