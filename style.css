@@ -87,25 +87,24 @@ body {
 }
 
 .turbine {
-    border-color: silver;
+    padding: 0px 0px;
     
 }
 
-.hoppy {
-    background-color: #3ea63e;
-    border-radius: none;
-    border-radius: 0px;
-    float: right;
-}
+
 
 /* -- SERVICES -- */
 .services {
-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    color: black;
+    padding: 2rem;
     
 }
 
-.service-items {
-    color: green;
+.service-item {
+    color: black;
 }
 
 .services h2 {
@@ -123,3 +122,10 @@ color: blue;
     font-size: 30px;
 }
 
+
+.hoppy {
+    background-color: #3ea63e;
+    border-radius: none;
+    border-radius: 0px;
+    float: right;
+}
