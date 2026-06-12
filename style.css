@@ -9,6 +9,8 @@ body {
 .header {
     padding: 0 30px;
     background-color: rgb(65, 161, 53);
+    background-image: linear-gradient(to bottom right, rgb(65, 161, 53), rgb(65, 161, 53), #28282B, #36454F);  
+    animation: gradient 15s ease infinite;
     overflow: hidden;
     height: 64px;
 }
@@ -61,13 +63,19 @@ body {
 
 
 /* -- HERO --- */
+.hero {
+    background-color: #2a2a2a;
+    width: 500%;
+    height: 100%;
+    background-image: url('/images/wind-turbine.jpg');
+
+}
 
 .hero h1 {
     font-size: 35px;
     font-weight: 900;
-    color: black;
-    margin-bottom: 10px;
-    float: left;
+    color: white;
+    max-width: 480px;
     
     
 }
@@ -86,6 +94,7 @@ body {
     
 }
 
+/*-- TURBINE --*/
 .turbine {
     padding: 0px 0px;
     
@@ -101,6 +110,10 @@ body {
     color: black;
     padding: 2rem;
     
+}
+
+.service-icon {
+    size: 250px;
 }
 
 .service-item {
@@ -123,9 +136,4 @@ body {
 }
 
 
-.hoppy {
-    background-color: #3ea63e;
-    border-radius: none;
-    border-radius: 0px;
-    float: right;
-}
+
