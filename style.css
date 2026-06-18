@@ -140,11 +140,11 @@ body {
     color: #3ea63e;
 }
 
-.info-box {
+.info-card {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    height: 30px;
+    height: 200px;
+    width: 200px;
     border: 2.5px solid #3ea63e;
     border-radius: 5px;
     margin-bottom: 5px;
